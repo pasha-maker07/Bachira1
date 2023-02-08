@@ -1,0 +1,42 @@
+body{
+    background-color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+a.navbar-brand{
+    font-weight: 123px;
+    font-size: 36px;
+}
+
+div.col{
+    text-align: justify;
+    font-weight: bold;
+}
+
+p.text{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .section-hero h1{
+        font-size: 38px;
+        text-align: center;
+
+    }
+    .section-hero p{
+        text-align: center;
+        
+    }
+    a.btn{
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+
+    div.row img{
+        margin-top: 30px;
+    }
+}
